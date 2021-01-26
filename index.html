@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="display" class="has-border m-2">
+        <span></span>
+      </div>
+      <div class="row">
+        <div class="col has-border m-2" onclick="chgDisplay(1)">1</div>
+        <div class="col has-border m-2" onclick="chgDisplay(2)">2</div>
+        <div class="col has-border m-2" onclick="chgDisplay(3)">3</div>
+        <div class="col has-border m-2" onclick="deleteNumber()">DEL</div>
+      </div>
+      <div class="row">
+        <div class="col has-border m-2" onclick="chgDisplay(4)">4</div>
+        <div class="col has-border m-2" onclick="chgDisplay(5)">5</div>
+        <div class="col has-border m-2" onclick="chgDisplay(6)">6</div>
+        <div class="col has-border m-2" onclick="resetDisplay()">Reset</div>
+      </div>
+      <div class="row">
+        <div class="col has-border m-2" onclick="chgDisplay(7)">7</div>
+        <div class="col has-border m-2" onclick="chgDisplay(8)">8</div>
+        <div class="col has-border m-2" onclick="chgDisplay(9)">9</div>
+        <div class="col has-border m-2" onclick="chgDisplay(0)">0</div>
+      </div>
+      <div class="row">
+        <div class="col has-border m-2">
+          <div id="message"><span>Welcome to Hua Yang Bank.</span></div>
+        </div>
+        <div class="col-2 has-border m-2" onclick="enterNumber()">Enter</div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

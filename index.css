@@ -1,0 +1,13 @@
+.has-border {
+  height: 50px;
+  border: 1px black solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+}
